@@ -5,7 +5,7 @@
 **My favorite foods**
 * Noodles
 * Boba
-* Rice
+* hi
 ---
 This is how you print in Java: `System.out.println("Hello World")`
 
