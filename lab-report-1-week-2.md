@@ -10,7 +10,7 @@ When you open the IDE, it should look like this:
 ## Step 2: **Remotely Connecting**
 Install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
-Open a terminal in VS Code and we will connect to the ieng6 remote serve by running this command: `ssh cs15lwi22zz@ieng6.ucsd.edu`.
+Open a terminal in VS Code and we will connect to the ieng6 remote server by running this command: `ssh cs15lwi22zz@ieng6.ucsd.edu`.
 
 Replace the 'zz' with your course specific account by looking it up [here](https://sdacs.ucsd.edu/~icc/index.php).
 
@@ -46,7 +46,7 @@ SSH Keys allow us to log on to a remote server faster: it creates a public key o
 Then, we make a directory called `.ssh` on the server and copy the public key (called `id_rsa.pub`) into that directory (using the `scp` command).
 
 Here is an example of what it should look like:
-![Image](sshKeys.png)
+![Image](sshkeys.png)
 
 
 ## Step 6: **Optimizing Remote Running**
