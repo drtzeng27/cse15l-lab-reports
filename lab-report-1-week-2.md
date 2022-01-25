@@ -60,10 +60,15 @@ Here is an example of what it should look like:
 
 ## Step 6: **Optimizing Remote Running**
 Different ways we can optimize remote running:
- - We can run commands remotely by adding our command in quotes are an SSH. It will log us out immediately afterwards.
+ - We can run commands remotely by adding our command in quotes after an SSH. It will log us out immediately afterwards.
  - We can run multiple commands at the same time by putting semicolons between each command.
 
 Here are some examples:
 ![Image](pleasantRunning.png)
 
-Let's make an edit to WhereAmI.java and try to copy it to the remote server.
+Let's make an edit to WhereAmI.java and try to copy it to the remote server. When typing out all the commands, using scp and ssh, this process takes about one minute and around a hundred keystrokes(mouse click or a key press). 
+
+The second time running, I tried all the methods to make remote running more pleasant. Using the up arrow keys to recall commands + adding commands at the end of an SSH, the total keystrokes this process took came out to 7. Here is a screenshot of the optimized process:
+![Image](pleasant.png)
+
+That's it!
