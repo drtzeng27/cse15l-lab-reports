@@ -7,7 +7,7 @@
 
 
 ![Image](lab3-SS/exampleSshConfig.png)
- - This is an example of how to use the configuration to make logging into a remote server more pleasant. Instead of typing out the entire address, we can now just type "ieng6", or whatever the host name is in the config file. This will log us in the same way but in less time.
+ - This is an example of how to use the configuration to make logging into a remote server more pleasant. Instead of typing out the entire address, we can now just type "ieng6", or whatever the host is in the config file. This will log us in the same way but in less time.
 
 
 ![Image](lab3-SS/scpConfig.png)
